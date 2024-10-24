@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    /* border: 2px solid firebrick; */
+}
+
+.flex {
+    display: flex;
+}
+
+.primary-color {
+    color: rgb(230, 83, 60);
+}
+
+.primary-bg-color {
+    background-color: rgb(230, 83, 60);
+}
+
+header {
+    background-image: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+nav {
+    margin: 30px auto;
+    width: 80%;
+    /* border: 1px solid saddlebrown; */
+}
+
+nav>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nav-list2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fitness {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.home {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 39px;
+    width: 92px;
+    margin: 5px;
+}
+
+list-stye {
+    justify-content: space-around;
+}
+
+.menu-icon {
+    visibility: hidden;
+}
+
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.banner-section {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid saddlebrown; */
+}
+
+.banner-info {
+    width: 40%;
+    /* border: 1px solid saddlebrown; */
+}
+
+.banner-img {
+    /* width: 50%; */
+}
+
+.banner-heading {
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.banner-pera {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+}
+
+.shape {
+    font-family: "Corinthia", cursive;
+    font-weight: 900;
+    font-size: 96px;
+}
+
+.banner-btn {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 50px;
+    width: 200px;
+    border-radius: 35px;
+    border: none;
+}
+
+.btn {
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.token {
+    position: absolute;
+    width: 170px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: -140px;
+    margin-top: 135px;
+}
+
+.token2{
+    position: absolute;
+    width: 170px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: -370px;
+    margin-top: 390px;
+}
+
+.token-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-list {
+        display: none;
+    }
+
+    .menu-icon {
+        visibility: visible;
+    }
+
+    .banner-section{
+        flex-direction: column;
+    }
+
+    .banner-info{
+        width: 100%;
+    }
+
+    .banner-heading {
+        font-weight: 600;
+        font-size: 48px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .banner-btn{
+        margin-bottom: 10px;
+    }
+
+    .token{
+        margin-left: 185px;
+    margin-top: -520px;
+    }
+
+    .token2{
+        margin-left: 1px;
+    margin-top: -270px;
+    }
+}
