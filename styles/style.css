@@ -171,7 +171,7 @@ list-stye {
     margin-top: 135px;
 }
 
-.token2{
+.token2 {
     position: absolute;
     width: 170px;
     height: 90px;
@@ -183,11 +183,62 @@ list-stye {
     margin-top: 390px;
 }
 
-.token-div{
+.token-div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.primary-width {
+    margin: 30px auto;
+    width: 80%;
+}
+
+.habit-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.heading-pera {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.habit-heading{
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 120%;
+    padding-bottom: 12px;
+}
+
+.habit-pera{
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
+
+/* start card css */
+.card{
+    display: flex;
+    justify-content: center;align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.color{
+    color: white;
+}
+
+.card-img{
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -199,11 +250,11 @@ list-stye {
         visibility: visible;
     }
 
-    .banner-section{
+    .banner-section {
         flex-direction: column;
     }
 
-    .banner-info{
+    .banner-info {
         width: 100%;
     }
 
@@ -213,17 +264,18 @@ list-stye {
         padding-bottom: 20px;
         padding-top: 30px;
     }
-    .banner-btn{
+
+    .banner-btn {
         margin-bottom: 10px;
     }
 
-    .token{
+    .token {
         margin-left: 185px;
-    margin-top: -520px;
+        margin-top: -520px;
     }
 
-    .token2{
+    .token2 {
         margin-left: 1px;
-    margin-top: -270px;
+        margin-top: -270px;
     }
 }
