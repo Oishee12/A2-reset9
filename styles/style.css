@@ -114,11 +114,6 @@ list-stye {
 
 .banner-info {
     width: 40%;
-    /* border: 1px solid saddlebrown; */
-}
-
-.banner-img {
-    /* width: 50%; */
 }
 
 .banner-heading {
@@ -241,6 +236,33 @@ list-stye {
     gap: 20px;
 }
 
+/* start run css */
+.run-section{
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 90px;
+}
+
+.run-info{
+    text-align: left;
+    width: 50%;
+}
+
+.run-img{
+    width: 50%;
+}
+
+.run-img-inner{
+    width: 100%;
+}
+
+.run-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 3em;
+}
+
 @media screen and (max-width: 576px) {
     .nav-list {
         display: none;
@@ -277,5 +299,27 @@ list-stye {
     .token2 {
         margin-left: 1px;
         margin-top: -270px;
+    }
+
+    /* card section */
+    .card-section, .run-flex{
+        flex-direction: column;
+    }
+
+    /* run section */
+    .run-flex{
+        padding: 20px;
+    }
+
+    .run-section{
+        margin-top: 50px;
+    }
+    .run-info{
+        text-align: left;
+        width: 100%;
+    }
+
+    .run-img{
+        width: 100%;
     }
 }
