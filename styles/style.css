@@ -263,6 +263,36 @@ list-stye {
     padding: 3em;
 }
 
+/* team-section */
+
+/* .team-section{
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 90px;
+} */
+
+.img-width{
+    width: 100%;
+    height: 250px;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgb(34, 34, 34);
+}
+
+.team-token{
+    backdrop-filter: initial;
+    background: none;
+    border: none;
+    margin-top: 160px;
+    margin-left: -350px;
+}
+
 @media screen and (max-width: 576px) {
     .nav-list {
         display: none;
@@ -321,5 +351,17 @@ list-stye {
 
     .run-img{
         width: 100%;
+    }
+
+    /* team section */
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 10px;
+    margin-top: 20px;
+    }
+    .team-token{
+        margin-top: 160px;
+    margin-left: -310px;
     }
 }
